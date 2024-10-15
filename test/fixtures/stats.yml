@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hp: MyString
+  attack: MyString
+  defense: MyString
+  special_attack: MyString
+  special_defense: MyString
+  speed: MyString
+  pokemon_id: 1
+
+two:
+  hp: MyString
+  attack: MyString
+  defense: MyString
+  special_attack: MyString
+  special_defense: MyString
+  speed: MyString
+  pokemon_id: 1

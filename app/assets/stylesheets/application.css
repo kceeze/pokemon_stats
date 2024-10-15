@@ -1,0 +1,126 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ .sort {
+
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+  }
+  
+  .sort-desc {
+    border-top: 8px solid #fff !important;
+  }
+  
+  .sort-asc {
+    border-bottom: 8px solid #fff !important;
+  }
+
+  .type-grass
+  {
+    background-color: #7c5 !important;
+  }
+
+  .type-normal {
+    background-color: #aa9 !important;
+  }
+
+.type-fighting {
+    background-color: #b54 !important;
+}
+
+.type-flying {
+    background-color: #89f !important;
+}
+
+.type-poison {
+    background-color: #a59 !important;
+}
+
+.type-ground {
+    background-color: #db5 !important;
+}
+
+.type-rock {
+    background-color: #ba6 !important;
+}
+
+.type-bug {
+    background-color: #ab2 !important;
+}
+
+.type-ghost {
+    background-color: #66b !important;
+}
+
+.type-steel {
+    background-color: #aab !important;
+}
+
+.type-fire {
+    background-color: #f42 !important;
+}
+
+.type-water {
+    background-color: #39f !important;
+}
+
+.type-grass
+{
+  background-color: #7c5 !important;
+}
+
+.type-electric {
+    background-color: #fc3 !important;
+}
+
+.type-psychic {
+    background-color: #f59 !important;
+}
+
+.type-ice {
+    background-color: #6cf !important;
+}
+
+.type-dragon {
+    background-color: #76e !important;
+}
+
+.type-dark {
+    background-color: #754 !important;
+}
+
+.type-fairy {
+    background-color: #e9e !important;
+}
+
+.type-icon {
+    display: inline-block;
+    width: 66px;
+    margin-bottom: 4px;
+    background: #dbdbdb;
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    color: #fff;
+    font-size: .75rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+    text-transform: uppercase;
+    transition: opacity .4s;
+}

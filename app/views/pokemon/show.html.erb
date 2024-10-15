@@ -1,0 +1,17 @@
+<div><h1><%= @pokemon.name.capitalize %></h1></div>
+<div><%= image_tag(@pokemon.official_artwork) %></div>
+
+<div class="stats">
+    <div><h2>Base Stats</h2></div>
+     <div>HP: <%= @pokemon.stats.hp %></div>
+     <div>Attack: <%= @pokemon.stats.attack %> </div>
+     <div>Defense: <%= @pokemon.stats.defense %> </div>
+     <div>Special Attack: <%= @pokemon.stats.special_attack %> </div>
+     <div>Special Defense: <%= @pokemon.stats.special_defense %> </div>
+     <div>Speed: <%= @pokemon.stats.speed %> </div>
+     <div>Total :<%= @pokemon.stats.base_total %> </div>
+</div>
+
+<div>
+    
+</div>
